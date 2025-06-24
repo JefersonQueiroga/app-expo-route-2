@@ -59,11 +59,11 @@ export default function UserDetails() {
 
       <View style={styles.actions}>
         <TouchableOpacity style={styles.editButton} onPress={editUser}>
-          <Text style={styles.buttonText}>✏️ Editar</Text>
+          <Text style={styles.buttonText}>Editar</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.deleteButton} onPress={deleteUser}>
-          <Text style={styles.buttonText}>🗑️ Excluir</Text>
+          <Text style={styles.buttonText}>Excluir</Text>
         </TouchableOpacity>
       </View>
 

@@ -8,7 +8,7 @@ export default function ParamsList() {
   const users: User[] = [
     { id: 1, name: 'Ana Silva', email: 'ana@example.com', role: 'Designer' },
     { id: 2, name: 'Carlos Santos', email: 'carlos@example.com', role: 'Desenvolvedor' },
-    { id: 3, name: 'Maria Oliveira', email: 'maria@example.com', role: 'Gerente' },
+    { id: 3, name: 'Maria Oliveira', email: 'maria@example.com', role: 'Gerente de Projetos' },
     { id: 4, name: 'João Costa', email: 'joao@example.com', role: 'Analista' },
   ];
 

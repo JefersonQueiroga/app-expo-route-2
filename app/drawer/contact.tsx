@@ -20,11 +20,11 @@ export default function DrawerContact() {
         <Text style={styles.contactTitle}>Entre em Contato</Text>
         
         <TouchableOpacity style={styles.contactButton} onPress={sendEmail}>
-          <Text style={styles.contactText}>📧 contato@example.com</Text>
+          <Text style={styles.contactText}>contato@example.com</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.contactButton} onPress={callPhone}>
-          <Text style={styles.contactText}>📱 (11) 99999-9999</Text>
+          <Text style={styles.contactText}>(84) 99999-9999</Text>
         </TouchableOpacity>
       </View>
     </View>

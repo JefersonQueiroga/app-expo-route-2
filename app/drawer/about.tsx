@@ -6,7 +6,7 @@ export default function DrawerAbout() {
       <Text style={styles.title}>Drawer Navigation - Sobre</Text>
       <Text style={styles.description}>
         Esta tela foi acessada através do menu lateral. 
-        O drawer é útil para navegação entre seções principais.
+        O drawer é útil para navegação entre seções.
       </Text>
 
       <View style={styles.aboutCard}>

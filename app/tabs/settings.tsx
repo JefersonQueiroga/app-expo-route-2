@@ -18,13 +18,13 @@ export default function TabSettings() {
 
       <View style={styles.settingItem}>
         <TouchableOpacity style={styles.settingButton} onPress={toggleNotifications}>
-          <Text style={styles.settingText}>🔔 Alternar Notificações</Text>
+          <Text style={styles.settingText}>Alternar Notificações</Text>
         </TouchableOpacity>
       </View>
 
       <View style={styles.settingItem}>
         <TouchableOpacity style={styles.settingButton} onPress={clearCache}>
-          <Text style={styles.settingText}>🗑️ Limpar Cache</Text>
+          <Text style={styles.settingText}>Limpar Cache</Text>
         </TouchableOpacity>
       </View>
     </View>
