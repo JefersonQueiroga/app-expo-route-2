@@ -26,6 +26,10 @@ export default function TabLayout() {
         tabBarInactiveTintColor: '#6b7280',
         headerStyle: { backgroundColor: '#10b981' },
         headerTintColor: '#fff',
+        tabBarIconStyle: { 
+          width: 30,    // Customizar tamanho
+          height: 30 
+        }
       }}
     >
       <Tabs.Screen
@@ -49,6 +53,7 @@ export default function TabLayout() {
           tabBarIcon: SettingsIcon,
         }}
       />
+
     </Tabs>
   );
 }

@@ -1,3 +1,4 @@
+// app/index.tsx - Tela inicial
 import { useRouter } from 'expo-router';
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
@@ -53,7 +54,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f8fafc',
+    backgroundColor: '#0f0f23', // Dark background
   },
   content: {
     padding: 20,
@@ -61,35 +62,38 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#1e293b',
+    color: '#ffffff', // White text
     textAlign: 'center',
     marginBottom: 10,
   },
   subtitle: {
     fontSize: 16,
-    color: '#64748b',
+    color: '#a1a1aa', // Light gray text
     textAlign: 'center',
     marginBottom: 30,
   },
   button: {
-    backgroundColor: '#6366f1',
+    backgroundColor: '#1e1e2e', // Dark button background
     padding: 20,
     borderRadius: 12,
     marginBottom: 15,
-    elevation: 3,
+    alignItems: 'center',
+    elevation: 6,
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    borderWidth: 1,
+    borderColor: '#374151', // Subtle border
   },
   buttonText: {
-    color: '#fff',
+    color: '#ffffff', // White text
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 5,
   },
   buttonDescription: {
-    color: '#e2e8f0',
+    color: '#9ca3af', // Light gray description
     fontSize: 14,
   },
 });
